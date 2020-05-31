@@ -12,6 +12,7 @@ Generates and executes test scripts for **web** applications. Uses [CodeceptJS](
 ## Installation
 
 Before installing:
+- Make sure you have [NodeJS](https://nodejs.org/) `10.15` or above, as required by [Playwright](https://playwright.dev/).
 - Make sure you have [Concordia](https://concordialang.org) `2.0` or above.
 - Access your application's folder from the terminal/console.
 
