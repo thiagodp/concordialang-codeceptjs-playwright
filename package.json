@@ -1,6 +1,6 @@
 {
     "name": "concordialang-codeceptjs-playwright",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "Concordia Language plug-in to generate test scripts for CodeceptJS with Playwright",
     "license": "AGPL-3.0",
     "readme": "readme.md",
