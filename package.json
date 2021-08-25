@@ -41,8 +41,7 @@
         "test": "echo \"No tests to run. They are in the `core` package.\"",
         "all": "npm run build && npm run test",
         "preversion": "npm run build && npm run test",
-        "postversion": "git push && git push --tags",
-        "postinstall": "node dist/in-ci.js || ((npm list -g npx) || (npm i --color=always -g npx))"
+        "postversion": "git push && git push --tags"
     },
     "jest": {
         "transform": {
