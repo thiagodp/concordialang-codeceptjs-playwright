@@ -1,5 +1,5 @@
-[![npm version](https://badge.fury.io/js/concordialang-codeceptjs-playwright.svg)](https://badge.fury.io/js/concordialang-codeceptjs-playwright)
-[![GitHub last commit](https://img.shields.io/github/last-commit/thiagodp/concordialang-codeceptjs-playwright.svg)](https://github.com/thiagodp/concordialang-codeceptjs-playwright/releases)
+[![npm version](https://img.shields.io/npm/v/concordialang-codeceptjs-playwright.svg?style=for-the-badge&color=green)](https://badge.fury.io/js/concordialang-codeceptjs-playwright)
+[![GitHub last commit](https://img.shields.io/github/last-commit/thiagodp/concordialang-codeceptjs-playwright.svg?style=for-the-badge)](https://github.com/thiagodp/concordialang-codeceptjs-playwright/releases)
 
 # concordialang-codeceptjs-playwright
 
@@ -31,16 +31,6 @@ npm i -D concordialang-codeceptjs-playwright
 ```
 
 ## Documentation
-
-### Installed dependencies
-
-| Name          | Version |
-| ------------- | ------- |
-| playwright    | 1.x     |
-| codeceptjs    | 2.x     |
-| mocha         | 7.x     |
-| mocha-multi   | 7.x     |
-| mocha-awesome | 6.x     |
 
 ### Integration with CodeceptJS
 

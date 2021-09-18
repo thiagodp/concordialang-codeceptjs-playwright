@@ -1,6 +1,6 @@
 {
     "name": "concordialang-codeceptjs-playwright",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "description": "Concordia Language plug-in to generate test scripts for CodeceptJS with Playwright",
     "license": "AGPL-3.0",
     "readme": "readme.md",
@@ -65,17 +65,13 @@
         "serve": "echo \"Playwright does not use an external testing server.\""
     },
     "dependencies": {
-        "codeceptjs": "^2.6.11",
-        "concordialang-codeceptjs-core": "^1.3.0",
-        "concordialang-plugin": "^1.1.0",
-        "mocha": "^7.2.0",
-        "mocha-multi": "^1.1.3",
-        "mochawesome": "^6.2.2",
-        "playwright": "^1.10.0"
+        "concordialang-codeceptjs-core": "^1.4.1",
+        "concordialang-plugin": "^1.2.1",
+        "playwright": "^1.14.1"
     },
     "devDependencies": {
         "@types/node": "^8.10.66",
         "rimraf": "^3.0.2",
-        "typescript": "^3.9.9"
+        "typescript": "^3.9.10"
     }
 }
