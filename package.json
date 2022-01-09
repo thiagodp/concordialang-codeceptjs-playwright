@@ -10,7 +10,7 @@
         "serve": "echo \"Playwright does not use an external testing server.\""
     },
     "name": "concordialang-codeceptjs-playwright",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "Concordia Compiler plug-in to generate test scripts for CodeceptJS with Playwright",
     "license": "AGPL-3.0",
     "readme": "readme.md",
