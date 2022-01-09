@@ -6,7 +6,7 @@ import { PlaywrightHelperConfiguration } from './PlaywrightHelperConfiguration';
  *
  * @author Thiago Delgado Pinto
  */
-export class CodeceptJSPlaywright extends CodeceptJS {
+export default class CodeceptJSPlaywright extends CodeceptJS {
 
     protected createTestScriptExecutor(): TestScriptExecutor {
         return new TestScriptExecutor(

@@ -16,7 +16,7 @@ Before installing:
 - Make sure you have [Concordia](https://concordialang.org) `2.0` or above.
 - Access your application's folder from the terminal/console.
 
-Install it via Concordia or NPM:
+Install it:
 
 a) Installation via Concordia:
 
@@ -29,6 +29,8 @@ b) Installation via NPM:
 ```bash
 npm i -D concordialang-codeceptjs-playwright
 ```
+
+👉 Note: You can also use PNPM or Yarn.
 
 ## Documentation
 

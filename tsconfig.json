@@ -1,20 +1,19 @@
 {
+    "include": [
+        "src/**/*.ts"
+    ],
     "compilerOptions": {
-        "outDir": "dist",
+
+        "target": "ES2015",
         "module": "commonjs",
-        "target": "es6",
+
+        "outDir": "dist",
+
         "noImplicitAny": false,
         "sourceMap": false,
         "declaration": true,
-        "typeRoots": [
-            "./node_modules/@types"
-        ]
-    },
-    "include": [
-        "src"
-    ],
-    "exclude": [
-        "node_modules",
-        "dist"
-    ]
+        "forceConsistentCasingInFileNames": true,
+
+        "strict": true
+    }
 }
