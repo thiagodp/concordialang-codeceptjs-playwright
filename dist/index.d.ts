@@ -4,6 +4,6 @@ import { CodeceptJS, TestScriptExecutor } from 'concordialang-codeceptjs-core';
  *
  * @author Thiago Delgado Pinto
  */
-export default class CodeceptJSPlaywright extends CodeceptJS {
+export declare class CodeceptJSPlaywright extends CodeceptJS {
     protected createTestScriptExecutor(): TestScriptExecutor;
 }
