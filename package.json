@@ -1,5 +1,14 @@
 {
-    "concordiaPlugin": true,
+    "concordiaPlugin": {
+        "isFake": false,
+        "targets": [
+            "codeceptjs",
+            "playwright"
+        ],
+        "file": "dist/index.js",
+        "class": "CodeceptJSPlaywright",
+        "serve": "echo \"Playwright does not use an external testing server.\""
+    },
     "name": "concordialang-codeceptjs-playwright",
     "version": "0.5.0",
     "description": "Concordia Compiler plug-in to generate test scripts for CodeceptJS with Playwright",
