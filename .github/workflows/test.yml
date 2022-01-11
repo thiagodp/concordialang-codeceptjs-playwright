@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        node-version: [10, 12, 14, 16]
+        node-version: [12, 14, 16]
     steps:
       - uses: actions/checkout@v2
         with:
@@ -22,7 +22,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - run: cd check && npm init --yes
-      - run: cd check && npm i -D concordialang
-      - run: cd check && npm i -D ..
-      - run: cd check && npx concordia features --headless
+      - run: |
+          echo "Running on branch \"${{ github.ref_name }}\""
+          cd check
+          npm init --yes
+          npm i -D concordialang
+          npm i -D "https://github.com/thiagodp/concordialang-codeceptjs-playwright.git#${{ github.ref_name }}"
+          npx concordia features --headless
