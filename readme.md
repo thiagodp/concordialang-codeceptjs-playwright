@@ -4,27 +4,23 @@
 
 # concordialang-codeceptjs-playwright
 
-> 🔌 Concordia Compiler Plug-in for CodeceptJS with Playwright
+> 🔌 Concordia compiler plug-in for CodeceptJS with Playwright
 
-Generates and executes test scripts for **web** applications. Uses [CodeceptJS](https://codecept.io) with [Playwright](https://playwright.dev/).
+Generates and executes test scripts for [CodeceptJS](https://codecept.io) with [Playwright](https://playwright.dev/) aiming to verify **web** applications.
 
-## [What's New](https://github.com/thiagodp/concordialang-codeceptjs-playwright/releases)
+## Install
 
-## Installation
+Requirements:
+- [NodeJS](https://nodejs.org/) 12 or later.
+- [Concordia Compiler](https://concordialang.org) 2.
 
-Before installing:
-- Make sure you have [NodeJS](https://nodejs.org/) version `12` or above, as required by [Playwright](https://playwright.dev/).
-- Make sure you have [Concordia](https://concordialang.org) version `2` or above.
-
-Install it:
-
-a) Installation via Concordia:
+Installation via Concordia Compiler:
 
 ```bash
 concordia --plugin-install codeceptjs-playwright
 ```
 
-b) Installation via NPM:
+Installation via NPM:
 
 ```bash
 npm i -D concordialang-codeceptjs-playwright
@@ -32,16 +28,11 @@ npm i -D concordialang-codeceptjs-playwright
 
 👉 Note: You can also use PNPM or Yarn.
 
-## Documentation
-
-### Integration with CodeceptJS
-
-See [concordialang-codeceptjs-core](https://github.com/thiagodp/concordialang-codeceptjs-core#documentation).
-
-
 ## See also
 
-- [katalon-concordia](https://github.com/thiagodp/katalon-concordia): extension for Google Chrome and Mozilla Firefox to convert recordings produced with [Katalon Recorder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid) into [Concordia Language](https://concordialang.org). It helps you to capture web elements' identification without inspecting them with the browser or looking into their source code.
+- [katalon-concordia](https://github.com/thiagodp/katalon-concordia): Browser extension that converts [Katalon Recorder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid)'s recordings into [Concordia Language](https://concordialang.org). Very useful to capture web elements' identification without inspecting them with the browser or looking into their source code.
+
+- [Integration with CodeceptJS](https://github.com/thiagodp/concordialang-codeceptjs-core#documentation)
 
 ## License
 
