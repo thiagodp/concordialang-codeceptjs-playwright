@@ -24,8 +24,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: |
           echo "Running on branch \"${{ github.ref_name }}\""
+          git clone https://github.com/concordialang/hello-world.git check
           cd check
           npm init --yes
           npm i -D concordialang
           npm i -D "https://github.com/thiagodp/concordialang-codeceptjs-playwright.git#${{ github.ref_name }}"
-          npx concordia features --headless
+          npx concordia features --headless -p codeceptjs-playwright

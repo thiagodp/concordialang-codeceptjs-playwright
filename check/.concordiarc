@@ -1,6 +1,0 @@
-{
-	"directory": "features",
-	"dirScript": "test",
-	"dirResult": "output",
-	"plugin": "codeceptjs-playwright"
-}
