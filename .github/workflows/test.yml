@@ -1,0 +1,31 @@
+name: test
+on:
+  pull_request:
+    branches:
+      - "*"
+  push:
+    branches:
+      - "*"
+jobs:
+  test:
+    name: test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        node-version: [12, 14, 16]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: |
+          echo "Running on branch \"${{ github.ref_name }}\""
+          cd check
+          npm init --yes
+          npm i -D concordialang
+          npm i -D "https://github.com/thiagodp/concordialang-codeceptjs-playwright.git#${{ github.ref_name }}"
+          npx concordia features --headless

@@ -30,6 +30,7 @@
         "concordialang",
         "concordia-lang",
         "concordia",
+        "codecept",
         "codeceptjs",
         "playwright",
         "test",
@@ -69,7 +70,7 @@
         "mochawesome": "^6.3.1"
     },
     "devDependencies": {
-        "@types/node": "^10.17.60",
+        "@types/node": "^12.20.41",
         "rimraf": "^3.0.2",
         "typescript": "^3.9.10"
     }

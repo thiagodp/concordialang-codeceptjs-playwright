@@ -1,4 +1,5 @@
 [![npm version](https://img.shields.io/npm/v/concordialang-codeceptjs-playwright.svg?style=for-the-badge&color=green)](https://badge.fury.io/js/concordialang-codeceptjs-playwright)
+[![Build Status](https://img.shields.io/github/workflow/status/thiagodp/concordialang-codeceptjs-playwright/test?style=for-the-badge)](https://github.com/thiagodp/concordialang-codeceptjs-playwright/actions)
 [![GitHub last commit](https://img.shields.io/github/last-commit/thiagodp/concordialang-codeceptjs-playwright.svg?style=for-the-badge)](https://github.com/thiagodp/concordialang-codeceptjs-playwright/releases)
 
 # concordialang-codeceptjs-playwright
@@ -12,9 +13,8 @@ Generates and executes test scripts for **web** applications. Uses [CodeceptJS](
 ## Installation
 
 Before installing:
-- Make sure you have [NodeJS](https://nodejs.org/) `10.15` or above, as required by [Playwright](https://playwright.dev/).
-- Make sure you have [Concordia](https://concordialang.org) `2.0` or above.
-- Access your application's folder from the terminal/console.
+- Make sure you have [NodeJS](https://nodejs.org/) version `12` or above, as required by [Playwright](https://playwright.dev/).
+- Make sure you have [Concordia](https://concordialang.org) version `2` or above.
 
 Install it:
 
